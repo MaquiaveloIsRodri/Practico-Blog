@@ -1,0 +1,50 @@
+.main-section-my{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30vh;
+    place-content: center;
+}
+.main-section-my span{
+    height: 30vh;
+    align-self: center;
+}
+.main-section-my span .section-my-noticias{
+    color:black;
+    left: 0;
+    top: calc(0% - 12%);
+}
+.main-tittle h2{
+    text-align: start;
+}
+
+.main-tittle p{
+    margin-top: 2vw;
+    text-align: start;
+}
+.main-tittle a{
+    margin-left: 0 ;
+    margin-top: 2.5vh;
+    width: 85px;
+    height: 4vh;
+    background-color:var(--background-news);
+    border: 1px solid var(--color-background-tittle);
+    place-content: center;
+    place-items: center;
+}
+/*footer*/
+.text-footer a{
+    font-size: 1.4rem;
+}
+.contenedor-viñeta{
+    gap: 15px;
+    font-size: 1.2rem;
+}
+.contenedor-viñeta img{
+    width: 120px;
+    height: 55px;
+    object-fit: contain;
+}
+.finally-system p{
+    font-size: 1.4rem;
+}

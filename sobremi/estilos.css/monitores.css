@@ -1,0 +1,15 @@
+.main-section-my span{
+    margin-right: 2vh;
+}
+.main-section-my{
+    height: 25vh;
+}
+.main--section-proyectos{
+    height: 35vh;
+}
+.main-section-my{
+    grid-template-columns: 35% 65%;
+}
+.section-article-intros{
+    gap: 10em;
+}

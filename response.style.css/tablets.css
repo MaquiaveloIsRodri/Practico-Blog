@@ -1,0 +1,27 @@
+.header-main .header-nav-item{
+    justify-content: center;
+}
+.header-main .header-nav-item li{
+    margin-right: 15px;
+}
+.nav-secund-picture{
+    width: 15rem;
+    align-self: center;
+    margin-left: 15px;
+} 
+.header-nav-secund .nav-secund-my{
+    margin-right: 40px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.main-intro .main-intro-tittle{
+    font-size: 2.3rem;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+.main-intro-click{
+    
+    margin-top: 2.5rem;
+    width: 16rem;
+    height: 4rem;
+}

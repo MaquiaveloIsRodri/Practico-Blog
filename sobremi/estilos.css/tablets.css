@@ -1,0 +1,54 @@
+
+.main-section-my{
+    height: 26vh;
+    background: none;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    /*grid-template-rows: ;*/   
+    background-color: #e6e9ed;
+}
+.main-section-my span{
+    width: 25rem;
+    height: 16rem;
+    background-image: url(../profile-pic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-self: center;
+    justify-self: end;
+    margin-right: 5px;
+}
+footer{
+    grid-template-rows: minmax(100px,20vh) 5vh;
+}
+
+.main-tittle{
+    width: 80%;
+    margin-left: 10px;
+}
+.main-tittle h2{
+    text-align: start;
+}
+
+
+.main--section-proyectos{
+    height: 30vh;
+    
+}
+.section-proyectos-icon{
+    background: none;
+}
+.section-article-intros{
+    gap: 2.5em;
+    overflow:visible;
+}
+
+
+.contenedor-viñeta{
+    grid-template-columns: 6rem 150px;
+    gap: 2px;
+}
+.contenedor-viñeta img{
+    width: 45px;
+}
+

@@ -1,0 +1,115 @@
+/*1024px laptop*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:62.5%;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+    display: inline;
+}
+.header-main{
+    width: 100vw;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.header-main .header-nav-item{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: end;
+    align-content: center;
+    background-color: #48cfad;
+    color: white;
+}
+.header-main .header-nav-item li{
+    align-self: center;
+    margin-right: 30px;
+    list-style: none;
+}
+
+.header-nav-secund{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}    
+.nav-secund-picture{
+    width: 35rem;
+    height: auto;
+    object-fit: contain;
+    justify-self: center;
+    justify-self: flex-start;
+    margin-left: 15px;
+}
+.header-nav-secund a {
+    width: auto;
+    height: auto;
+    justify-self: end;
+    align-self: center;
+    margin-right: 80px;
+    color: black;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+/*main*/
+
+.main-conteiner{
+    width:100vw;
+    height: 80vh;
+    background-image: url(./img/Cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-intro{
+    display: grid;
+    grid-template-columns:minmax(120px,1fr) ;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.main-intro .main-intro-tittle{
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    margin-top: 60px;
+}
+.main-intro-click{
+    background-color: #48cfad;
+    color: black;
+    border: 2px solid rgba(235, 230, 100, 200);
+    width: 20rem;
+    height: 5rem;
+    text-align: center;
+    margin-top: 5rem;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    transition:all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*psedo-clases*/
+.main-intro-click:hover{
+    transition: 0.3s;
+    background-color:#c06262;
+    cursor: pointer;
+}
+li :hover{
+    color: #9c9c9c;
+    cursor: pointer;
+}
+.nav-secund-my:hover{
+    color: #c06262;
+}
